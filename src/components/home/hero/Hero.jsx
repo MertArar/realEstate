@@ -2,17 +2,39 @@ import React from "react";
 import Heading from "../../common/Heading";
 import "./hero.css";
 
+import { AiOutlineSearch } from "react-icons/ai";
+
 const Hero = () => {
   return (
     <>
-      <seciton className="hero">
+      <section className="hero">
         <div className="container">
           <Heading
             title="Search Your Next Home"
             subtitle="Find new & featured property located in your city."
           />
+          <form className="flex">
+            <div className="box">
+              <span>City/Street</span>
+              <input type="text" placeholder="Location" />
+            </div>
+            <div className="box">
+              <span>Property Type</span>
+              <input type="text" placeholder="Property Type" />
+            </div>
+            <div className="box">
+              <span>Price Range</span>
+              <input type="text" placeholder="Price Range" />
+            </div>
+            <div className="box">
+              <h4>Advance Filter</h4>
+            </div>
+            <button className="btn1">
+              <AiOutlineSearch size={20} />
+            </button>
+          </form>
         </div>
-      </seciton>
+      </section>
     </>
   );
 };
