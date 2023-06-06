@@ -1,7 +1,9 @@
 import "./App.css";
 
+import Pages from "./components/pages/Pages";
+
 function App() {
-  return <div className="App">test</div>;
+  return <Pages />;
 }
 
 export default App;

@@ -1,7 +1,8 @@
 import React from "react";
+import Header from "../common/header/Header";
 
 const Pages = () => {
-  return <div>Pages</div>;
+  return <Header />;
 };
 
 export default Pages;
