@@ -18,9 +18,9 @@ const Pages = () => {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/services" element={<Services />} />
-          <Route exact path="/blog" element={Blog} />
-          <Route exact path="/pricing" element={Pricing} />
-          <Route exact path="/contact" element={Contact} />
+          <Route exact path="/blog" element={<Blog />} />
+          <Route exact path="/pricing" element={<Pricing />} />
+          <Route exact path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </BrowserRouter>
