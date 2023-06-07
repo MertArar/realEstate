@@ -13,6 +13,11 @@
   color: #bec7d8;
   cursor: pointer;
 }
+
+.recent .category i:hover {
+  color: red;
+}
+
 .recent p {
   color: #72809d;
 }
