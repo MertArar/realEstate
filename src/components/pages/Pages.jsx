@@ -22,7 +22,7 @@ const Pages = () => {
           <Route exact path="/pricing" element={Pricing} />
           <Route exact path="/contact" element={Contact} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </BrowserRouter>
     </>
   );
